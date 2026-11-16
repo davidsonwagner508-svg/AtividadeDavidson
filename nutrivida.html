@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Peças Express</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"> Auto Peças Express</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+                            Categorias
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#produtos">Freios</a></li>
+                            <li><a class="dropdown-item" href="#produtos">Motores</a></li>
+                            <li><a class="dropdown-item" href="#produtos">Acessórios</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container text-center mt-5">
+        <h1 class="text-dark fw-bold">Auto Peças Express</h1>
+        <p class="text-secondary fs-5">
+            Encontre preço baixo e peças de boa qualidade aqui!
+        </p>
+        <a href="#produtos" class="btn btn-danger btn-lg">Ver produtos</a>
+    </header>
+
+    <div class="container mt-4">
+        <div class="alert alert-warning text-center">
+             Aproveite nossas ofertas especiais!
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div id="meuCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner rounded">
+
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=1200"
+                         class="d-block w-100" style="height:350px; object-fit:cover;">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1486006920555-c77dcf18193c?w=1200"
+                         class="d-block w-100" style="height:350px; object-fit:cover;">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200"
+                         class="d-block w-100" style="height:350px; object-fit:cover;">
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#meuCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#meuCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+    </div>
+
+    <section class="container mt-5" id="produtos">
+
+        <h2 class="text-center text-dark mb-4">Nossos Produtos</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="https://images.tcdn.com.br/img/img_prod/302929/bateria_automotiva_duran_60ah_12v_free_selada_cca_480ah_18m_garantia_3336_1_1de378d35b9a6c26007a6dde88b2c7fc.png"
+                         class="card-img-top" style="height:200px; object-fit:cover;">
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Bateria Automotiva</h5>
+                        <p class="card-text">Bateria de qualidade para seu veículo.</p>
+                        <h5 class="text-success">R$ 450,00</h5>
+                        <button class="btn btn-danger">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="https://contagemmotorpecas.com.br/wp-content/uploads/2019/02/Confira-os-principais-componentes-do-motor-de-um-carro.jpg"
+                         class="card-img-top" style="height:200px; object-fit:cover;">
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Peças de Motor</h5>
+                        <p class="card-text">Peças resistentes para seu carro.</p>
+                        <h5 class="text-success">R$ 280,00</h5>
+                        <button class="btn btn-danger">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="https://carrefourbr.vtexassets.com/arquivos/ids/185220274/image-2.jpg?v=638751217355030000"
+                         class="card-img-top" style="height:200px; object-fit:cover;">
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Acessórios</h5>
+                        <p class="card-text">Acessórios para seu veículo.</p>
+                        <h5 class="text-success">R$ 150,00</h5>
+                        <button class="btn btn-danger">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container mt-5" id="sobre">
+        <div class="d-flex flex-column flex-md-row align-items-center justify-content-around bg-dark text-white p-4 rounded">
+
+            <div class="p-3 text-center">
+                <h2>Sobre Nós</h2>
+                <p>
+                    Trabalhamos com peças automotivas de qualidade,
+                    oferecendo os melhores produtos para seu veículo.
+                </p>
+            </div>
+
+            <div class="p-3">
+                <img src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=500"
+                     class="img-fluid rounded" style="max-height:200px;">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container mt-5 mb-5" id="contato">
+
+        <h2 class="text-center mb-4">Entre em Contato</h2>
+
+        <form class="mx-auto" style="max-width:500px;">
+
+            <div class="mb-3">
+                <label class="form-label">Nome:</label>
+                <input type="text" class="form-control" placeholder="Digite seu nome">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">E-mail:</label>
+                <input type="email" class="form-control" placeholder="Digite seu e-mail">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Mensagem:</label>
+                <textarea class="form-control" rows="3" placeholder="Digite sua mensagem"></textarea>
+            </div>
+
+            <button type="button" class="btn btn-danger w-100">
+                Enviar
+            </button>
+
+        </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p class="mb-0">2026 Auto Peças Express - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
